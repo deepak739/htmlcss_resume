@@ -1,0 +1,168 @@
+.ResumeContainer
+{
+    display: grid;
+    background-color:silver;
+    grid-template-columns:40px 40px 300px;
+    grid-template-rows: 20px 20px 50px 200px 200px 200px 200px 200px 200px 100px;
+    justify-items: center;
+    
+}
+@media(max-width:250px)
+{
+    .ResumeContainer
+    {
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.name
+{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin-left: 90px;
+    
+
+}
+.designation
+{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    margin-left: 50px;
+    
+
+}
+.resumephoto
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding-left: 70px;
+}
+.photo
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+} 
+li
+{
+    list-style: none;
+}
+.contact
+{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    padding-left: 0px;
+    margin-left: 0px;
+    justify-items: left;
+}
+.hardskills
+{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    padding-left: 0px;
+    margin-left: 22px;
+    justify-items: center;
+}
+.softskills
+{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    padding-left: 0px;
+    margin-left: 22px;
+    justify-items: center;
+}
+.collegeeducation
+{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    padding-left: 0px;
+    margin-left: 22px;
+    justify-items: center;
+}
+.schooleducation
+{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    padding-left: 0px;
+    margin-left: 22px;
+    justify-items: center;
+}
+.senior
+{
+    margin-left: 0px;
+    padding-left: 0px;
+    justify-items: left;
+}
+.color
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 8;
+    background-color:cadetblue;
+    display:inline-block;
+} 
+body{
+    background-color:goldenrod
+}
+.AboutMe
+{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    justify-items: center;
+    margin-left: 90px;
+    
+}
+.Experience
+{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    justify-items: center;
+    margin-left: 90px;
+    
+}
+.responsibilities
+{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 8;
+    grid-row-end: 8;
+    justify-items: center;
+    margin-left: 90px;
+    
+}
+.achievements
+{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 9;
+    grid-row-end: 9;
+    justify-items: center;
+    margin-left: 90px;
+    
+}
+.dot
+{
+    list-style: circle;
+}
